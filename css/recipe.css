@@ -1,0 +1,34 @@
+h2{
+    background-color: #c1c1c1;
+    color: #ccb431;
+    text-align: left;
+    text-decoration: underline;
+}
+.txtAlignCenter
+{
+    text-align: center;
+}
+
+.pieImage{
+    max-width: 200px;
+    max-height: 290px;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.commentdiv{
+    background-color: yellow;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 95%;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.goldlink
+{
+    color: gold;
+}
