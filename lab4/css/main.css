@@ -1,0 +1,33 @@
+.button{
+    display: inline;
+    width: 159px;
+    background-color: rgb(4, 170, 109);
+    color: white;
+    border-radius: 25px;
+    border-color: white;
+    font-size: 25px;
+}
+
+.maindiv{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.tdlabel
+{
+    font-weight: bold;
+    min-width: 200px;
+}
+.tdfield
+{
+    line-height: 35px;
+}
+.tdfield > input , select
+{
+    font-family: monospace;
+    font-size: 20px;
+}
+.tdsubmit
+{
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Sign Up</title>
+    <link href="css/signup.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    
+  
+<div class="signupFrm">
+    <form action="https://mumstudents.org/params.php" method="get" class="form">
+      <h1 class="title">Sign up</h1>
+
+      <div class="inputContainer">
+        <input type="text" name="txt_Name" class="input" placeholder="a">
+        <label for="" class="label">Name</label>
+      </div>
+
+      <div class="RadioContainer">
+        <label for="" >Gender</label>
+        <input type="radio"  id="rd_gender_Male" name="rd_gender" value="male"> Male
+        <input type="radio"  id="rd_gender_Female" name="rd_gender" value="female"> Female
+      </div>
+
+      <div class="inputContainer">
+        <input type="number" name="txt_Age" class="input" placeholder="a">
+        <label for="" class="label">Age</label>
+      </div>
+
+      <div class="inputContainer">
+        <input type="text" name="txt_Personality_Type" class="input" placeholder="a">
+        <label for="" class="label">Personality Type</label>
+        <label for="" class="label2">(<span style="color:red" >Don't know your type ?</span>)</label>
+      </div>
+      <br>
+      <div class="inputContainer">
+        <select name="sel_FavoriteOS" class="input" placeholder="a">
+          <option value="Windows">Windows</option>
+          <option value="Mac OS">Mac OS</option>
+        </select>
+        <label for="" class="label">Favorite OS</label>
+      </div>
+
+      <div class="RadioContainer" style="margin: 0px;">
+        <label for=""  >Seeking Age</label>
+        <div class="inputContainer" style="margin-top: 5px;margin-bottom: 10px;">
+          <input type="number" name="txt_FromAge" class="input" placeholder="a">
+          <label for="" class="label">Min</label>
+        </div>
+        <span>to</span>
+        <div class="inputContainer" style="margin-top: 5px;">
+          <input type="number" name="txt_ToAge" class="input" placeholder="a">
+          <label for="" class="label">Max</label>
+        </div>
+      </div>
+      <input type="submit" class="submitBtn" value="Sign up">
+    </form>
+  </div>
+</body>
+</html>

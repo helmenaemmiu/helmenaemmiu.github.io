@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Retrieve Grade</title>
+    <link href="css/main.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+    <form action="https://mumstudents.org/params.php" method="get">
+        <div class="maindiv">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="tdlabel">
+                            Student Name
+                        </td>
+                        <td class="tdfield">
+                            <input type="text" id="txt_studentName" name="txt_studentName"
+                                placeholder="enter student name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdlabel">
+                            Student ID
+                        </td>
+                        <td class="tdfield">
+                            <input type="text" id="txt_studentID" name="txt_studentID" placeholder="enter student ID">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdlabel">
+                            Course Assignment
+                        </td>
+                        <td class="tdfield">
+                            <select id="sel_Course" name="sel_Course">
+                                <option value="course1">Course 1</option>
+                                <option value="course2">Course 2</option>
+                                <option value="course3">Course 3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdlabel">
+                            Course Entry
+                        </td>
+                        <td class="tdfield">
+                           <input type="radio" id="rd_Entry_1" name="rd_Entry" value="Entry 1" checked > Entry 1
+                           <input type="radio" id="rd_Entry_2" name="rd_Entry" value="Entry 2"> Entry 2
+                           <input type="radio" id="rd_Entry_3" name="rd_Entry" value="Entry 3"> Entry 3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdlabel">
+                            Agreement
+                        </td>
+                        <td class="tdfield">
+                          <input type="checkbox" id="chk_Agreement" name="chk_Agreement" checked >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdsubmit" colspan="2">
+                            <input type="submit" value="submit" class="button">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
