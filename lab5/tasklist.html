@@ -15,7 +15,7 @@
                 debugger;
                 tasklist.push(newTask.value);
                 newTask.value = '';
-                window.localStorage.setItem('tasklist',JSON.stringify( tasklist));
+                window.localStorage.setItem('tasklist', JSON.stringify(tasklist));
                 PublishTaskListToTextArea(tasklist);
                 alert('new task saved successfully');
             }
@@ -29,14 +29,14 @@
 
         function getLocalStorageTaskList() {
             var tasklist = window.localStorage.getItem('tasklist');
-            if (tasklist == null || tasklist == undefined || tasklist =='')
+            if (tasklist == null || tasklist == undefined || tasklist == '')
                 return [];
             else return JSON.parse(tasklist);
         }
         function PublishTaskListToTextArea() {
             var txtArea = document.getElementById("txt_tasksList");
-            txtArea.value='';
-            tasklist=getLocalStorageTaskList();
+            txtArea.value = '';
+            tasklist = getLocalStorageTaskList();
             for (let i = 0; i < tasklist.length; i++) {
                 txtArea.value += tasklist[i] + '\r\n';
             }
@@ -44,9 +44,26 @@
 
 
 
-        window.addEventListener('load', PublishTaskListToTextArea, false )
+        window.addEventListener('load', PublishTaskListToTextArea, false)
+
+        function mmmm() {
+            setTimeout(booyah1, 5000);
+            setTimeout(booyah2(), 8000);
+
+        }
+
+        function booyah1() {
+            alert('BOOYAH!');
+        }
+
+        function booyah2() {
+            return function () {
+                alert('BOOYAH!');
+            }
+        }
 
 
+        window.addEventListener('load', mmmm, false)
     </script>
 
 </head>
