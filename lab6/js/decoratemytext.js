@@ -3,7 +3,7 @@ var intervalID;
 
 function biggerDecorationHandler(){
     var textArea = document.getElementById('txt_maintxt');
-    intervalID = setInterval(increaseFontSize , 2000 , textArea);
+    intervalID = setInterval(increaseFontSize , 500 , textArea);
     
     //document.getElementById('txt_maintxt').style.fontSize='24px';
 }
