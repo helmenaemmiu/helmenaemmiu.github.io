@@ -1,0 +1,18 @@
+1-
+Yes, they all are equivalent
+
+fragment 1 -
+There are two arguments where idx returns the index of each element, and
+e returns that element.
+
+fragment 2 -
+ uses this keyword to represent the current
+element in the loop.
+fragment 3 -
+uses idx as the index and  this as the current element in loop.
+
+
+2-
+$("div ul").css("color","blue");
+
+3-$("body").append("<div><h1>JQuery Core</h1></div> "); 
